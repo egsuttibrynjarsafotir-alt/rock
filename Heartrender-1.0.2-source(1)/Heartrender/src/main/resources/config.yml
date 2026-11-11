@@ -1,0 +1,22 @@
+# ---------------- Heartrender config ----------------
+
+# How many Heartrenders can EVER be crafted on the server. 0 = unlimited.
+# Use "/hr resetcount" to reset the counter (e.g. if the sword was lost).
+max-crafts: 1
+
+# If true, only players you've revealed the recipe to (/hr reveal) can craft it.
+# If false, anyone who figures out the recipe can craft it - revealing just
+# shows them the recipe GUI and unlocks it in their recipe book.
+require-reveal-to-craft: false
+
+# Tell the whole server when someone forges the sword.
+announce-craft: true
+
+# Blood Rush (right-click) cooldown in seconds.
+dash-cooldown-seconds: 15
+
+# Heart Siphon (passive on-hit lifesteal): chance 0.0 - 1.0, bonus damage,
+# and health healed (2.0 = 1 heart). Healing never exceeds max health.
+heart-siphon-chance: 0.15
+heart-siphon-bonus-damage: 6.0
+heart-siphon-heal: 4.0

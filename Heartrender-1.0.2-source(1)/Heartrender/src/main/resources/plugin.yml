@@ -1,0 +1,22 @@
+name: Heartrender
+main: dev.smp.heartrender.HeartrenderPlugin
+version: 1.0.2
+api-version: '1.21'
+description: A mythic lifesteal sword with a secret recipe for your SMP.
+
+commands:
+  heartrender:
+    description: Heartrender main command
+    usage: /<command> help
+    aliases: [hr, heart]
+
+permissions:
+  heartrender.admin:
+    description: Give the sword, reload config, view/reset craft count
+    default: op
+  heartrender.reveal:
+    description: Reveal or hide the recipe for other players
+    default: op
+  heartrender.craft:
+    description: Allows crafting the Heartrender
+    default: true
